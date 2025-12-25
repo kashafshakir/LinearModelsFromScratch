@@ -57,7 +57,7 @@ The project uses the **House Prices dataset (Kaggle)** as a case study to predic
 
 - Python 3.11+  
 - NumPy  
-- Matplotlib / Seaborn for visualization  
+- Matplotlib  for visualization  
 - Pandas for data manipulation  
 
 ---
@@ -80,21 +80,16 @@ The project uses the **House Prices dataset (Kaggle)** as a case study to predic
 w = w - learning_rate * ∂MSE/∂w
 b = b - learning_rate * ∂MSE/∂b
 
-###2️⃣ Ridge Regression
+### 2️⃣ Ridge Regression
 
 Adds L2 penalty to loss function:
 Loss = MSE + λ * ||w||²
 Gradient descent updates weights accordingly
 Coefficient shrinkage visualized across λ
 
-###3️⃣ Lasso Regression
+### 3️⃣ Lasso Regression
 Adds L1 penalty to loss function:
 Loss = MSE + λ * Σ|w_i|
 Gradient descent updates weights using sub-gradient
 Automatically drives unimportant features to zero
 Coefficient paths show feature selection effect
-
-
-
-
-Explore polynomial features for non-linear regression
